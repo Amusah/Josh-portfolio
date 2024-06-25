@@ -679,7 +679,7 @@ nav .socials a:hover {
 
 #contact .contact {
   text-align: center;
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -918,6 +918,16 @@ nav .socials a:hover {
     .group:not(:last-child){
       margin-bottom: 50px;
     }
+
+    #contact{
+      padding: 10rem 3rem;
+      .contact {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+      }
+    } 
+
   }
 
   @media screen and (max-width: 456px) {
